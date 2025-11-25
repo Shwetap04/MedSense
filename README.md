@@ -49,7 +49,7 @@ Built using **FastAPI (backend)** and **Streamlit (frontend)**, it demonstrates 
 ---
 
 ## Project Structure
-
+```
 vehicle-cutin-detection/
 ├── Vehicle_cut-in_detection.ipynb
 ├── Intel_Unnati___Idea_Submission_PPT final.pptx
@@ -62,7 +62,7 @@ MedSense/
 │ └── app.py
 │── README.md
 │── requirements.txt
-
+```
 
 ---
 
