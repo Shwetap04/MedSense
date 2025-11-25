@@ -50,14 +50,10 @@ Built using **FastAPI (backend)** and **Streamlit (frontend)**, it demonstrates 
 
 ## Project Structure
 ```
-vehicle-cutin-detection/
-├── Vehicle_cut-in_detection.ipynb
-├── Intel_Unnati___Idea_Submission_PPT final.pptx
-├── README.md
-└── Dataset (download from IDD Temporal site)
 
 MedSense/
-├── backend/ ├── app.py
+├── backend/
+│ └── app.py  
 │── frontend/
 │ └── app.py
 │── README.md
