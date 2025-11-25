@@ -66,7 +66,7 @@ MedSense/
 
 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/MedSense.git
+git clone https://github.com/Shwetap04/MedSense.git
 cd MedSense
  ```
 2. Install Dependencies
