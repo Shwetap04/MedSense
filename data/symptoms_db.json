@@ -1,0 +1,87 @@
+{
+  "symptoms": {
+    "headache": {
+      "related_conditions": ["migraine", "stress", "poor_sleep", "dehydration", "viral_illness", "sinusitis"],
+      "severity_score": 2
+    },
+    "dizziness": {
+      "related_conditions": ["low_blood_sugar", "dehydration", "anemia", "migraine", "motion_sickness"],
+      "severity_score": 2
+    },
+    "vomiting": {
+      "related_conditions": ["stomach_infection", "motion_sickness", "viral_illness", "acidity"],
+      "severity_score": 3
+    },
+    "fatigue": {
+      "related_conditions": ["anemia", "stress", "poor_sleep", "viral_illness"],
+      "severity_score": 1
+    },
+    "back_pain": {
+      "related_conditions": ["posture_pain", "muscle_strain", "stress"],
+      "severity_score": 2
+    },
+    "chest_tightness": {
+      "related_conditions": ["anxiety", "chest_congestion"],
+      "severity_score": 3
+    },
+    "sore_throat": {
+      "related_conditions": ["viral_illness", "allergy"],
+      "severity_score": 1
+    },
+    "runny_nose": {
+      "related_conditions": ["allergy", "viral_illness", "sinusitis"],
+      "severity_score": 1
+    },
+    "bloated_stomach": {
+      "related_conditions": ["acidity", "indigestion", "stomach_infection"],
+      "severity_score": 1
+    },
+    "abdominal_pain": {
+      "related_conditions": ["stomach_infection", "indigestion"],
+      "severity_score": 2
+    },
+    "shortness_of_breath": {
+      "related_conditions": ["anxiety"],
+      "severity_score": 4
+    },
+    "nausea": {
+      "related_conditions": ["motion_sickness", "stomach_infection", "migraine"],
+      "severity_score": 2
+    },
+    "body_aches": {
+      "related_conditions": ["viral_illness", "stress"],
+      "severity_score": 1
+    },
+    "cough": {
+      "related_conditions": ["viral_illness", "chest_congestion"],
+      "severity_score": 2
+    },
+    "eye_strain": {
+      "related_conditions": ["eye_strain"],
+      "severity_score": 1
+    },
+    "fainting": {
+      "related_conditions": ["low_blood_sugar", "anemia", "dehydration"],
+      "severity_score": 5
+    }
+  },
+
+  "conditions": {
+    "migraine": ["headache", "nausea", "light_sensitivity"],
+    "stress": ["headache", "fatigue", "back_pain"],
+    "poor_sleep": ["fatigue", "irritability", "headache"],
+    "dehydration": ["headache", "dizziness", "dark_urine"],
+    "viral_illness": ["fever", "cough", "fatigue", "sore_throat"],
+    "posture_pain": ["back_pain", "neck_pain", "shoulder_tightness"],
+    "muscle_strain": ["back_pain", "stiffness", "swelling"],
+    "acidity": ["burning_chest", "bloating", "nausea"],
+    "allergy": ["sneezing", "runny_nose", "watery_eyes"],
+    "anemia": ["fatigue", "dizziness", "weakness"],
+    "low_blood_sugar": ["dizziness", "shaking", "sweating"],
+    "motion_sickness": ["nausea", "vomiting", "dizziness"],
+    "stomach_infection": ["vomiting", "diarrhea", "abdominal_pain"],
+    "sinusitis": ["headache", "nasal_congestion", "facial_pain"],
+    "chest_congestion": ["cough", "mucus_build_up", "fatigue"],
+    "anxiety": ["chest_tightness", "fast_heartbeat", "dizziness"]
+  }
+}
